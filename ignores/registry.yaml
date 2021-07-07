@@ -1,0 +1,53 @@
+app:
+  python:
+    file: app/python.gitignore
+    title: Python Generic
+  wordpress-core:
+    file: app/wordpress-core.gitignore
+    ref: https://wpengine.com/support/git/
+    title: Wordpress (Core files and themes)
+  wordpress-general:
+    file: app/wordpress-general.gitignore
+    ref: https://wpengine.com/support/git/
+    title: Wordpress (Dynamic and variable files)
+    desc: Files in Wordpress that tend to change frequently or are environment-specific, RECOMMENDED.
+  wordpress-plugins:
+    file: app/wordpress-plugins.gitignore
+    ref: https://wpengine.com/support/git/
+    title: Wordpress (All plugins)
+    desc: Exlcude all plugins from git by default
+env:
+  wpengine:
+    file: env/wpengine.gitignore
+    title: WPEngine Specific Files
+    ref: https://wpengine.com/support/git/
+    desc: List of files specific to WPEngine which are maintained externally
+ide:
+  jetbrains:
+    file: ide/jetbrains.gitignore
+    title: Jetbrains IDEs
+    ref: https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+    desc: Standard set of ignore statements when using IntelliJ, Pycharm, PHPStorm, or any other IDEA editor
+  jetbrains-gradle:
+    file: ide/jetbrains-gradle.gitignore
+    title: Jetbrains IDEs with Gradle Auto-import
+    ref: https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+    desc: List of files Gradle will auto-compile, include to reduce churn
+  vi:
+    file: ide/vi.gitignore
+    title: Vi/ViM Editor
+    desc: Exclude temp files created with Vi and ViM
+os:
+  macos:
+    file: os/macos.gitignore
+    title: MacOS System Files
+    desc: List of files auto-created by MacOS and Finder
+  windows:
+    file: os/windows.gitignore
+    title: Windows System Files
+    desc: List of files auto-created by Windows and Explorer
+z_other:
+  versioncontrol:
+    file: z_other/versioncontrol.gitignore
+    title: Other versioning software (CVS and SVN)
+    desc: You probably shouldn't have multiple repos in a single project, but if you do

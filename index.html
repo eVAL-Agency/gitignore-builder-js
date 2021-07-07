@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GIT-Ignore Builder</title>
+
+	<script src="assets/js/js-yaml.js"></script>
+	<script src="assets/js/gitignore-builder.js"></script>
+
+	<style>
+		main {
+			max-width: 70em;
+			margin: 0 auto;
+			padding: 0 1em;
+		}
+		label {
+			display: block;
+			margin-bottom: 0.5em;
+		}
+		textarea {
+			width: 100%;
+			min-height: 30em;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>GIT-Ignore Builder</h1>
+		<p>
+			Usage: Select the tools, environments, and frameworks you will be using, and copy/paste the output.
+			<br/><br/>
+			This does not provide custom declarations, but leaves a space at the bottom for your own settings.
+		</p>
+
+		<h2>Step 1: Tool Selection</h2>
+
+		<section id="selection-area">
+			<!-- This area generated dynamically -->
+		</section>
+
+		<h2>Step 2: Generated .gitignore Contents</h2>
+
+		<!-- This area generated dynamically -->
+		<textarea id="render-area" readonly="readonly"></textarea>
+
+		<h2>Step 3: Profit</h2>
+	</main>
+
+<script>IgnoreRegistry.Run('ignores/');</script>
+</body>
+</html>

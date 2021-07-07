@@ -1,0 +1,4 @@
+# Temp files, I forgot where *~ comes into play, this might be gedit or something
+# .swp is definitely vim/vi though!
+*~
+*.swp

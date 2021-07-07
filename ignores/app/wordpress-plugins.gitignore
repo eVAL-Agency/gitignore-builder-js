@@ -1,0 +1,4 @@
+# smart plugin manager specific 
+wp-content/plugins/*
+wp-content/.logs/
+autoupdater_maintenance_mode_enabled.tmp
