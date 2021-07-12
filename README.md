@@ -90,9 +90,11 @@ in the foot:
 
 The paths will need to be correct for your environment, but that's the gist of it.
 
+## License
+
+Licensed under MIT, do with what you wish, though please try to keep attribution.
+
 ## Future Ideas
 
 The underlying logic of this application relies on language-agnostic flat files,
 so a server component could be created to provide a CLI-friendly lookup.
-
-oh, and assume MIT license here, (I'll get around to setting that shortly).
